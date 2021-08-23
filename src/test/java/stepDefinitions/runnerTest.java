@@ -12,5 +12,6 @@ import org.junit.runner.RunWith;
         tags="@SanityFlow or @RegressionFlow",
         plugin={"pretty", "html:target/cucumber-html-report.html", "json:target/cucumber.json", "junit:target/cucumber.xml", "rerun:target/rerun.txt"})
 
+
 public class runnerTest {
 }
